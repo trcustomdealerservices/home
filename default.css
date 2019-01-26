@@ -56,7 +56,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: 1000px;
 	}
 	
 
@@ -181,7 +181,7 @@
 
 	.image
 	{
-		display: inline-block;
+		display: none;
 		border: 1px solid rgba(0,0,0,.1);
 	}
 	
@@ -193,9 +193,10 @@
 	
 	.image-full
 	{
-		display: block;
+		display: inline-block;
 		width: 100%;
 		margin: 0 0 3em 0;
+		padding: 10px;
 	}
 	
 	.image-left
@@ -618,7 +619,7 @@
 	.column3,
 	.column4
 	{
-		width: 282px;
+		/*! width: 282px; */
 	}
 	
 	.column1,
