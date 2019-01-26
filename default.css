@@ -428,7 +428,7 @@
 
 	#wrapper1
 	{
-		background: #00261C;
+		background: #00261C url(images/overlay.png) repeat;
 	}
 
 	#wrapper2
@@ -440,14 +440,14 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: #fff;
+		background: #C0C0C0 url(images/overlay.png) repeat;
 	}
 	
 	#wrapper4
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: #00261C;
+		background: #044C29 url(images/overlay.png) repeat;
 	}
 
 /*********************************************************************************/
