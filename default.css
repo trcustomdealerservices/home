@@ -60,6 +60,22 @@
 	}
 	
 
+	.screen {
+                font-size: 0.5em;
+                margin: 0;
+                background-color: red;
+                position: absolute;
+                width: 100% /* BenM mentioned this in answer*/
+                height: 100%; /* take full browser height */
+                left: 0;
+                top: 0;
+            }
+
+  	.screen .main {
+                width: 100%; /* <--now this takes full browser dimension  */
+                height: 100%; /* <--now this takes full browser dimension  */
+            }
+
 /*********************************************************************************/
 /* Form Style                                                                    */
 /*********************************************************************************/
